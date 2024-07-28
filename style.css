@@ -23,18 +23,24 @@ body {
     margin: 16px;
 }
 
+body {
+    font-size: 20px; /* default = 16px */
+}
+
 #intro {
     display: flex;
 
     justify-content: center;
+    gap: 32px;
 }
 
 #welcome-text {
-    max-width: 500px;
+    max-width: 512px;
 }
 
 .emphasis {
     color: teal;
+    white-space: pre;
 }
 
 #balloon-laos {
@@ -50,6 +56,7 @@ header {
 
 footer {
     text-align: center;
+    font-size: .75em;
 }
 
 header button {
