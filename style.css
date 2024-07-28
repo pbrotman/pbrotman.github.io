@@ -25,6 +25,12 @@ body {
 
 #intro {
     display: flex;
+
+    justify-content: center;
+}
+
+#welcome-text {
+    max-width: 500px;
 }
 
 .emphasis {
