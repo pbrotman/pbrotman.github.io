@@ -30,6 +30,8 @@ body {
 #balloon-laos {
     max-width: 378px; /*3024/8*/
     max-height: 504px; /*4032/8*/
+
+    border-radius: 50%;
 }
 
 header {
