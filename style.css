@@ -2,6 +2,27 @@
     font-family: "Roboto", sans-serif;
 }
 
+body {
+    height: 100vh;
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+
+    /* Flex item */
+    flex: 1;
+
+    /* Flex container */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 16px;
+}
+
 #intro {
     display: flex;
 }
