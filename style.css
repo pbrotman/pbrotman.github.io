@@ -27,6 +27,10 @@ body {
     display: flex;
 }
 
+.emphasis {
+    color:teal;
+}
+
 #balloon-laos {
     max-width: 378px; /*3024/8*/
     max-height: 504px; /*4032/8*/
