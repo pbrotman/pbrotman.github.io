@@ -10,3 +10,9 @@ headerButtons.forEach(el => {
     el.addEventListener("mouseover", () => {el.classList.add("emphasis")});
     el.addEventListener("mouseout", () => {el.classList.remove("emphasis")});
 })
+
+let projectDivs = document.querySelectorAll(".project");
+projectDivs.forEach(el => {
+    el.addEventListener("mouseover", () => {el.classList.add("emphasis")});
+    el.addEventListener("mouseout", () => {el.classList.remove("emphasis")});
+})
