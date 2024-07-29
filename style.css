@@ -61,6 +61,7 @@ footer {
 
 header button {
     margin: 8px 16px;
+    font-size: .875em;
     /* text-decoration: underline; */
     /* border-bottom: 2px solid black; */
 }
