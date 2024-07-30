@@ -101,11 +101,11 @@ body {
     border: solid;
     border-radius: 10%;
     text-align: center;
-    width: 12vw;
-    height: 12vw;
+    width: 16vw;
+    height: 16vw;
 }
 
-.project1 {
+/* .project1 {
     color: #008080;
 }
 .project2 {
@@ -113,6 +113,17 @@ body {
 }
 .project3 {
     color: #80005E;
+} */
+
+.project-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.project-tools span {
+    border: 1px solid black;
+    border-radius: 10%;
 }
 
 header {
