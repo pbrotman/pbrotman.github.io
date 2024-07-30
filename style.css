@@ -30,12 +30,17 @@ body {
 #intro {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap-reverse;
     gap: 32px;
 }
 
 #welcome-text {
     max-width: 512px;
+}
+
+#welcome-text h1{
+    margin-top: 0px;
 }
 
 #icons {
