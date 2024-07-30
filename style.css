@@ -50,6 +50,10 @@ body {
     font-size: 2em;
 }
 
+#icons a {
+    color: inherit;
+}
+
 .emphasis {
     color: #008080;
 }
