@@ -46,7 +46,15 @@ body {
 }
 
 .emphasis {
-    color: teal;
+    color: #008080;
+}
+
+.emphasis2 {
+    color: #806B00;
+}
+
+.emphasis3 {
+    color: #80005E;
 }
 
 #welcome-text .emphasis {
@@ -58,7 +66,6 @@ body {
     max-height: 504px; /*4032/8*/
 
     border-radius: 50%;
-    /* border: 2px solid; */
 }
 
 .outer {

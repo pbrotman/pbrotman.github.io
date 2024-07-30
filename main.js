@@ -5,16 +5,16 @@ elsCurYear.forEach(el => {
 });
 
 // Highlight specific elements on hover.
-function hoverEmphasis(el){
-    el.addEventListener("mouseover", () => {el.classList.add("emphasis")});
-    el.addEventListener("mouseout", () => {el.classList.remove("emphasis")});
+function hoverEmphasis(el, num=""){
+    el.addEventListener("mouseover", () => {el.classList.add(`emphasis${num}`)});
+    el.addEventListener("mouseout", () => {el.classList.remove(`emphasis${num}`)});
 };
 
 let headerButtons = document.querySelectorAll("header button");
 headerButtons.forEach(el => hoverEmphasis(el));
 
-let projectDivs = document.querySelectorAll(".project");
-projectDivs.forEach(el => hoverEmphasis(el));
+// let projectDivs = document.querySelectorAll(".project");
+// projectDivs.forEach(el => hoverEmphasis(el));
 
 let iconImgs = document.querySelectorAll("#icons i");
-iconImgs.forEach(el => hoverEmphasis(el));
+iconImgs.forEach(el => hoverEmphasis(el, 3));
