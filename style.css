@@ -71,6 +71,7 @@ body {
     max-height: 504px; /*4032/8*/
 
     border-radius: 50%;
+    /* border: 2px solid #FFEA80; */
 }
 
 .outer {
