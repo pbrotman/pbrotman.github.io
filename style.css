@@ -62,6 +62,10 @@ body {
     color: #80005E;
 }
 
+.emphasis4 {
+    color: #FFEA80;
+}
+
 #welcome-text .emphasis {
     white-space: pre;
 }
