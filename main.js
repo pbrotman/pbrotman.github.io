@@ -13,7 +13,7 @@ function hoverEmphasis(el, num=""){
 let headerButtons = document.querySelectorAll("header button");
 headerButtons.forEach(el => {
     // hoverEmphasis(el, 2);
-    el.addEventListener("click", () => alert("Under Construction."))
+    // el.addEventListener("click", () => alert("Under Construction."))
 });
 
 // let projectDivs = document.querySelectorAll(".project");
