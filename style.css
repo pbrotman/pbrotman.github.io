@@ -38,6 +38,13 @@ body {
     max-width: 512px;
 }
 
+#icons {
+    display: flex;
+    gap: 16px;
+
+    font-size: 2em;
+}
+
 .emphasis {
     color: teal;
 }
