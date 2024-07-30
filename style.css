@@ -71,7 +71,7 @@ body {
     max-height: 504px; /*4032/8*/
 
     border-radius: 50%;
-    /* border: 2px solid #FFEA80; */
+    border: 2px solid #FFEA80;
 }
 
 .outer {
@@ -103,6 +103,16 @@ body {
     text-align: center;
     width: 12vw;
     height: 12vw;
+}
+
+.project1 {
+    color: #008080;
+}
+.project2 {
+    color: #806B00;
+}
+.project3 {
+    color: #80005E;
 }
 
 header {
